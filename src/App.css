@@ -42,7 +42,7 @@ p {
   border-radius: 20px;
   justify-content: center;
   max-width: 400px;
-  padding: 60px;
+  padding: 60px 30px 70px 30px;
   margin: 40px auto;
   background-color:#ffffee;
 }
@@ -68,7 +68,7 @@ p {
 .SymbolDancing, .SymbolFood, .SymbolHeart, .SymbolMusic, .SymbolRing, .SymbolSpeech {
   display: inline-block;
   font-family: 'Noto Emoji', sans-serif;
-  font-size: xx-large;
+  font-size: x-large;
   margin: 12px 0px 0px 0px
 }
 
