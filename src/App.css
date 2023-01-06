@@ -20,6 +20,8 @@ p {
   background-color:#fdd28e;
   border-radius: 12px;
   min-height: 40px;
+  border-color: black;
+  color: black;
 }
 
 .NavButton {
@@ -40,7 +42,7 @@ p {
   border-radius: 20px;
   justify-content: center;
   max-width: 400px;
-  padding: 90px;
+  padding: 60px;
   margin: 40px auto;
   background-color:#ffffee;
 }
