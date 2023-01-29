@@ -4,7 +4,7 @@ function PageInv() {
   return (
     <div className='BodyItem'>
       <p>
-        The invitation is not yet ready. Look at the state of the save the date! Even that isn't ready!
+        The invitation is not yet ready. It will be here, and we will let you know when to look again.
       </p>
       <SymbolReel />
     </div>

@@ -53,6 +53,12 @@ p {
   margin: 12px;
 }
 
+.bigsubtitle {
+  font-family: 'Bellefair';
+  font-size: x-large;
+  margin: 12px;
+}
+
 .footnote {
   font-size: small;
   margin: 6px;
