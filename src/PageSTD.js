@@ -10,7 +10,10 @@ function PageSTD() {
         Robyn & Nicholas
       </p>
       <p className='subtitle'>
-        on Tuesday, the 26th of March 2024. 
+        on Tuesday, the 26th of March 2024
+      </p> 
+      <p className='subtitle'>
+        at Bassmead Manor Barns, Cambridgeshire.
       </p>
       <p className='footnote'>
         Formal invitation to follow.
