@@ -6,9 +6,9 @@ function PageRSVP() {
     <div>
       <div className='BodyItem'>
         <p>
-          The RSVP link has not been set up yet. This page will be updated when the invite is ready.
+          Please RSVP using the button below. There is a short form to fill in once for each guest.
         </p>
-        <LinkButton text='RSVP' onClick={() => { window.open('https://fanciful-cactus-da52fa.netlify.app/') }} />
+        <LinkButton text='RSVP' onClick={() => { window.open('https://docs.google.com/forms/d/e/1FAIpQLSe0tuAkQkC4anvHte9RUtMyx6yuuWXdibXQaDAHdb-r9q2c0w/viewform') }} />
         <SymbolReel />
       </div>
     </div>

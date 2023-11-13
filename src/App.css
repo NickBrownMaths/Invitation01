@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@700');
+
 .App {
   text-align: center;
   font-family: 'Bellefair', cursive;
@@ -9,15 +10,30 @@ p {
   margin: 12px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-collapse: separate;
+}
+
+.rightTable {
+  text-align: right;
+}
+
+.leftTable {
+  text-align: left;
+}
+
 .Header {
-  font-size:xx-large;
+  font-size: xx-large;
   margin: 12px;
 }
 
-.NavButton, .LinkButton {
+.NavButton,
+.LinkButton {
   font-family: 'Bellefair';
   font-size: large;
-  background-color:#fdd28e;
+  background-color: #fdd28e;
   border-radius: 12px;
   min-height: 40px;
   border-color: black;
@@ -44,7 +60,7 @@ p {
   max-width: 400px;
   padding: 60px 30px 70px 30px;
   margin: 40px auto;
-  background-color:#ffffee;
+  background-color: #ffffee;
 }
 
 .subtitle {
@@ -55,7 +71,7 @@ p {
 
 .bigsubtitle {
   font-family: 'Bellefair';
-  font-size: x-large;
+  font-size: xx-large;
   margin: 12px;
 }
 
@@ -66,12 +82,17 @@ p {
 
 .Divider {
   color: gray;
-  font-size:x-small;
+  font-size: x-small;
   font-family: 'Noto Emoji', sans-serif;
   margin: 12px;
 }
 
-.SymbolDancing, .SymbolFood, .SymbolHeart, .SymbolMusic, .SymbolRing, .SymbolSpeech {
+.SymbolDancing,
+.SymbolFood,
+.SymbolHeart,
+.SymbolMusic,
+.SymbolRing,
+.SymbolSpeech {
   display: inline-block;
   font-family: 'Noto Emoji', sans-serif;
   font-size: x-large;
@@ -81,10 +102,10 @@ p {
 .SymbolRing {
   color: #ff7900;
   -webkit-text-stroke: 0.2px #ff7900;
-  }
+}
 
 .SymbolSpeech {
-  color :#ffc500;
+  color: #ffc500;
   -webkit-text-stroke: 0.3px #ffc500;
 }
 
@@ -108,8 +129,9 @@ p {
   -webkit-text-stroke: 1.4px #f13423;
 }
 
-.NavButton:hover, .LinkButton:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+.NavButton:hover,
+.LinkButton:hover {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 100px;
@@ -117,19 +139,25 @@ p {
 }
 
 @keyframes shake {
-  10%, 90% {
+
+  10%,
+  90% {
     transform: translate3d(0, -1px, 0);
   }
-  
-  20%, 80% {
+
+  20%,
+  80% {
     transform: translate3d(0, 2px, 0);
   }
 
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     transform: translate3d(0, -4px, 0);
   }
 
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(0, 4px, 0);
   }
 }
